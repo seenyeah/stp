@@ -8,7 +8,7 @@ const App = () => {
       <Header />
       <Hero />
       </div>
-  )
+  );
 }
 
 export default App
