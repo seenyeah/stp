@@ -31,6 +31,9 @@ function App() {
       <p>
         CICD check
       </p>
+      <p>
+        CICD check 2
+      </p>
     </>
   )
 }
