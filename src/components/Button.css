@@ -1,0 +1,4 @@
+.bg-tertiary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 38 38 / var(--tw-bg-opacity));
+}
