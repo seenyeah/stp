@@ -10,7 +10,9 @@ const Navbar = () => {
     <nav className="bg-white">
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-          <h1 className="cursor-pointer h-9 text-2xl font-bold">DeSTP</h1>
+          <Link to={"/"}>
+            <h1 className="cursor-pointer h-9 text-2xl font-bold">DeSTP</h1>
+          </Link>
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
@@ -38,8 +40,8 @@ const Navbar = () => {
           </li>
           <NavLinks />
           <Link to="/" className="py-7 px-3 inline-block">
-              Working with DeSTP
-            </Link>
+            Working with DeSTP
+          </Link>
           <div className="py-5">
             <Button />
           </div>

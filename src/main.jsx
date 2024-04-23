@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import { HashRouter } from "react-router-dom";
+import HomePage from "./HomePage";
 import "./index.css";
-import { BrowserRouter } from "react-router-dom";
+import "./pages/Presentation.css"
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+      <HashRouter>
+        <HomePage />
+      </HashRouter>
   </React.StrictMode>
 );

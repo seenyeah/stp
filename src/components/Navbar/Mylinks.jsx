@@ -15,8 +15,8 @@ export const links = [
       {
         Head: "ICT",
         sublink: [
-          { name: "Overview", link: "ict-overview" },
-          { name: "ICT Hub", link: "ict-hub" },
+          { name: "Overview", link: "/ict-overview" },
+          { name: "ICT Hub", link: "/ict-hub" },
         ],
       },
       {
@@ -51,7 +51,7 @@ export const links = [
       {
         Head: "About",
         sublink: [
-          { name: "Our Mission", link: "/mission" },
+          { name: "Our Mission", link: "/about" },
           { name: "Careers", link: "/careers" },
           { name: "Contact us", link: "/contact-us" },
         ],
