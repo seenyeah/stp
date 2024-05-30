@@ -1,0 +1,24 @@
+.award{
+    height: 150px;
+    border-radius: 50px;
+    width: 150px;
+    background: hsl(51, 100%, 30%);
+}
+.awards{
+    margin-left: 50px;
+    padding: 100px;
+    margin-right: 0;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .awards {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .awards {
+      width: 100%;
+    }
+  }

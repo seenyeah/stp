@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/Logo.png";
-import Button from "../Button";
+ import { StpLogo } from "../../assets";
+import Button from "../Buttons/Button";
 import NavLinks from "./NavLinks";
-
+import { closeOutline, menuOutline } from 'ionicons/icons';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <Link to={"/"}>
-            <h1 className="cursor-pointer h-9 text-2xl font-bold">DeSTP</h1>
+            <img src={StpLogo} alt="" />
           </Link>
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>

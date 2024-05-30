@@ -6,8 +6,7 @@ export const links = [
       {
         Head: "Agri-Tech",
         sublink: [
-          { name: "Overview", link: "/agri-tech-overview" },
-          { name: "Food & Bio-resources", link: "/food-and-bio-resources" },
+           { name: "Food & Bio-resources", link: "/food-and-bio-resources" },
           { name: "Natural Products", link: "/natural-products" },
           { name: "Value-addition", link: "/value-addition" },
         ],
@@ -15,8 +14,10 @@ export const links = [
       {
         Head: "ICT",
         sublink: [
-          { name: "Overview", link: "/ict-overview" },
-          { name: "ICT Hub", link: "/ict-hub" },
+           { name: "ICT Hub", link: "/ict-hub" },
+           { name: "Courses", link: "/courses" },
+
+
         ],
       },
       {
@@ -35,7 +36,7 @@ export const links = [
       {
         Head: "Resources",
         sublink: [
-          { name: "For Investors", link: "/for-investors" },
+          { name: "For Investors", link: "/anchor-clients" },
           { name: "For Partners", link: "/for-partners" },
           { name: "For Researchers", link: "/for-researchers" },
           { name: "For Enterpreneurs", link: "/for-enterpreneurs" },
@@ -53,7 +54,7 @@ export const links = [
         sublink: [
           { name: "Our Mission", link: "/about" },
           { name: "Careers", link: "/careers" },
-          { name: "Contact us", link: "/contact-us" },
+          { name: "Contact us", link: "/contact" },
         ],
       },
     ],

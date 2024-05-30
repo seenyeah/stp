@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from "../components/Button";
+import Button from "../components/Buttons/Button";
 import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 import Stats from "../components/Stats";
 import "./Presentation.css"
 
